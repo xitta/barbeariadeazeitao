@@ -1,0 +1,75 @@
+body {
+  margin: auto;
+  font-family: 'Julius Sans One', sans-serif;
+  color: black;
+  font-size: 19px;
+}
+
+.header {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.social {
+  margin-top: 15px;
+  text-align: center;
+}
+
+img {
+   max-width: 90%;
+}
+
+
+/* Typography */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+.list-inline>li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fa {
+    font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+  color: black;
+}
+
+small {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 320px) {
+   small { font-size: 13px; }
+}
+
+@media only screen and (max-width: 320px) {
+   body { font-size: 15px; }
+}
+
+.btn-default {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+}
